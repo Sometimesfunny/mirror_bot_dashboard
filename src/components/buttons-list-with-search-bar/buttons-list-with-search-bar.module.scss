@@ -1,0 +1,42 @@
+.root {
+  height: 100%;
+}
+.search-bar {
+  height: 3vw;
+  width: calc(100% - 2px);
+  margin: 0%;
+  padding: 0px 0px 0px 2px;
+  border: 0px solid black;
+  font-size: 1.2vw;
+  background-color: #e7e7e7;
+}
+.selector-body {
+  height: calc(100% - 3vw);
+  width: 100%;
+}
+.items-list {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+}
+/* width */
+.items-list::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+/* Track */
+.items-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.items-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.items-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

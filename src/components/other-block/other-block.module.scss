@@ -1,0 +1,46 @@
+.root {
+  height: 100%;
+  width: 100%;
+}
+.title-container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.3vw;
+  font-weight: 700;
+  direction: ltr;
+}
+.body-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.item-name {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-left: 1%;
+}
+.item-trigger {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}

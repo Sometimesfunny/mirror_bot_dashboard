@@ -1,0 +1,31 @@
+.root {
+}
+.item-button {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.item-title {
+  width: 100%;
+  height: 67%;
+  font-size: 1.5vw;
+}
+.item-subtitle {
+  height: 33%;
+  width: 100%;
+  font-size: 0.7vw;
+}
+.item {
+  height: 3vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}

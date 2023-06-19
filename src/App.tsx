@@ -1,23 +1,18 @@
-import logo from './assets/logo.svg';
 import styles from './App.module.scss';
+import { NavBar } from './components/nav-bar/nav-bar';
+import { ServerSelector } from './components/server-selector/server-selector';
+import { MainBody } from './components/main-body/main-body';
 
 function App() {
+    console.log('app');
+
     return (
         <div className={styles.App}>
-            <header className={styles['App-header']}>
-                <img src={logo} className={styles['App-logo']} alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className={styles['App-link']}
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <NavBar />
+            <div className={styles['main-screen']}>
+                <ServerSelector />
+                <MainBody />
+            </div>
         </div>
     );
 }

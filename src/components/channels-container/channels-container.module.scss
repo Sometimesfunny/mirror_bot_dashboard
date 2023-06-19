@@ -1,0 +1,14 @@
+.root {
+}
+.channels-list {
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  // max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid black;
+  border-bottom: 1px solid black;
+}

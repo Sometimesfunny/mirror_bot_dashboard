@@ -1,0 +1,33 @@
+.root {
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+.item-name {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-left: 1%;
+  font-weight: 600;
+  font-size: 1.2vw;
+}
+.item-trigger {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+.selector {
+  width: 75%;
+  font-size: 0.9vw;
+}

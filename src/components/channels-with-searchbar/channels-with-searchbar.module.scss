@@ -1,0 +1,38 @@
+.root {
+  height: 100%;
+  width: 100%;
+}
+.search-bar {
+  height: 10%;
+  width: calc(100% - 2px);
+  margin: 0%;
+  padding: 0px 0px 0px 2px;
+  border: 0px solid black;
+  font-size: 1vw;
+  background-color: #e7e7e7;
+}
+.modifier {
+  height: 90%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* width */
+.modifier::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+/* Track */
+.modifier::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.modifier::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.modifier::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

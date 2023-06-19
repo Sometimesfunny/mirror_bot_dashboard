@@ -1,0 +1,115 @@
+.root {
+  --full-height: calc(100vh - 5vw);
+  --one-third-percent: calc(100% / 3);
+  --table-data-height: calc(var(--full-height) / 4);
+  width: 83vw;
+  height: var(--full-height);
+}
+.parameters-row {
+  display: flex;
+  grid-auto-flow: column;
+  height: 20vw;
+  width: 100%;
+  flex-direction: row;
+  overflow: hidden;
+}
+.parameters-table {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  flex-direction: column;
+  grid-auto-flow: row;
+  border-spacing: 0;
+}
+
+/* width */
+.parameters-table::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+/* Track */
+.parameters-table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.parameters-table::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.parameters-table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.table-header {
+  display: none;
+}
+.table-data {
+  width: var(--one-third-percent);
+  height: 100%;
+  padding: 0px;
+}
+.data-title {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.data-body {
+  height: 85%;
+  width: 100%;
+}
+.data-list {
+  width: 100%;
+  padding: 0%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 85%;
+  margin: 0%;
+}
+.list-item-container {
+  display: flex;
+  height: 3.5vw;
+  width: 100%;
+}
+.checkbox-container {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 85%;
+}
+.checkbox {
+  width: 50%;
+  height: 50%;
+}
+.search-bar {
+  height: 10%;
+  width: 100%;
+  margin: 0%;
+  padding: 0px 0px 0px 2px;
+  border: 0px solid black;
+}
+.server-button {
+  width: 100%;
+  height: 15%;
+}
+.servers-container {
+  height: 90%;
+}
